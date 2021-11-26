@@ -6,7 +6,12 @@ public class Player : MonoBehaviour
 {
     // Config params
     [SerializeField] private float moveSpeed = 10f;
+    [SerializeField] private float laserSpeed = 10f;
+    [SerializeField] private float laserFrequency = 0.5f;
     [SerializeField] private float padding = 0.5f;
+    [SerializeField] private GameObject playerLaser;
+
+    private Coroutine firingCoroutine;
 
     private float xMin;
     private float xMax;
@@ -23,6 +28,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         Move();
+        Fire();
     }
 
     private void Move()
@@ -35,6 +41,27 @@ public class Player : MonoBehaviour
         transform.position = new Vector2(newXPos, newYPos);
     }
 
+    private void Fire()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            firingCoroutine = StartCoroutine(FireContinuously());
+        }
+        if (Input.GetButtonUp("Fire1"))
+        {
+            StopCoroutine(firingCoroutine);
+        }
+    }
+
+    private IEnumerator FireContinuously()
+    {
+        while (true)
+        {
+            GameObject laser = Instantiate(playerLaser, transform.position, Quaternion.identity) as GameObject;
+            laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, laserSpeed);
+            yield return new WaitForSeconds(laserFrequency);
+        }
+    }
     private void MovingBoundaries()
     {
         Camera gameCamera = Camera.main;

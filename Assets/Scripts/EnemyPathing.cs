@@ -6,14 +6,16 @@ using UnityEngine.Serialization;
 public class EnemyPathing : MonoBehaviour
 {
     // Config params
-    [SerializeField] private List<Transform> waypoints;
+    [SerializeField] private WaveConfig WaveConfig;
     [SerializeField] private float moveSpeed = 2f;
 
     private int waypointIndex = 0;
+    private List<Transform> waypoints;
 
     // Start is called before the first frame update
     void Start()
     {
+        waypoints = WaveConfig.GetWaypoints();
         transform.position = waypoints[waypointIndex].transform.position;
     }
 

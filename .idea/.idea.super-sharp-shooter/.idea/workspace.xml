@@ -10,8 +10,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6b1444477c1d41c692ef6c02a838308529ac30/49/d4acc6bd/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21UuoQTChaMgFevW4PGtA6OG9kF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,6 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="swagger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -58,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638008164978</updated>
       <workItem from="1638008170530" duration="2697000" />
+      <workItem from="1638023084329" duration="2977000" />
     </task>
     <servers />
   </component>

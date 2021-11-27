@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
         {
             firingCoroutine = StartCoroutine(FireContinuously());
         }
+
         if (Input.GetButtonUp("Fire1"))
         {
             StopCoroutine(firingCoroutine);
@@ -62,6 +63,7 @@ public class Player : MonoBehaviour
             yield return new WaitForSeconds(laserFrequency);
         }
     }
+
     private void MovingBoundaries()
     {
         Camera gameCamera = Camera.main;

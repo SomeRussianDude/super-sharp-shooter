@@ -11,8 +11,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float padding = 0.5f;
     [SerializeField] private GameObject playerLaser;
 
+    // Cached references
     private Coroutine firingCoroutine;
-
     private float xMin;
     private float xMax;
     private float yMin;

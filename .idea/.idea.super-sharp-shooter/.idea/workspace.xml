@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0310211-c0bd-48b5-8686-5b45b7ad671b" name="Changes" comment="" />
+    <list default="true" id="f0310211-c0bd-48b5-8686-5b45b7ad671b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Paths/Path (2).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Paths/Path (2).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy 2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy 2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 4.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Paths/Path (0).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Paths/Path (0).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/enemyBlue4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/enemyBlue4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game Core.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game Core.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Waves/Wave 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Waves/Wave 2.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,12 +40,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21UuoQTChaMgFevW4PGtA6OG9kF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -68,7 +88,10 @@
       <option name="presentableId" value="Default" />
       <updated>1638008164978</updated>
       <workItem from="1638008170530" duration="2697000" />
-      <workItem from="1638023084329" duration="2977000" />
+      <workItem from="1638023084329" duration="5383000" />
+      <workItem from="1638053417885" duration="108000" />
+      <workItem from="1638093712765" duration="338000" />
+      <workItem from="1638094701820" duration="4037000" />
     </task>
     <servers />
   </component>
@@ -78,7 +101,20 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0310211-c0bd-48b5-8686-5b45b7ad671b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Paths/Path (2).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Paths/Path (2).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy 2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy 2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 4.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paths/Path (0).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Paths/Path (0).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/enemyBlue4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/enemyBlue4.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game Core.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game Core.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Waves/Wave 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Waves/Wave 2.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +79,24 @@
       <workItem from="1638023084329" duration="5383000" />
       <workItem from="1638053417885" duration="108000" />
       <workItem from="1638093712765" duration="338000" />
-      <workItem from="1638094701820" duration="4037000" />
+      <workItem from="1638094701820" duration="5132000" />
+      <workItem from="1638100764080" duration="357000" />
     </task>
+    <task id="LOCAL-00001" summary="Implemented multiple wave spawning, created a new path, wave config is now set via method, not serialized field">
+      <created>1638100032253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638100032253</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Separate commit for EnemySpawner.. No idea why it didn't go with the previous">
+      <created>1638100211786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638100211786</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +110,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -116,5 +126,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Implemented multiple wave spawning, created a new path, wave config is now set via method, not serialized field" />
+    <MESSAGE value="Separate commit for EnemySpawner.. No idea why it didn't go with the previous" />
+    <option name="LAST_COMMIT_MESSAGE" value="Separate commit for EnemySpawner.. No idea why it didn't go with the previous" />
   </component>
 </project>

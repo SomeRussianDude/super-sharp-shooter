@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0310211-c0bd-48b5-8686-5b45b7ad671b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy Laser (1).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy Laser (1).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Green Nebula 6 - 1024x1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Space-Background-Tiled.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Space-Background-Tiled.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/laserRed03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/laserRed03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/laserRed05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/laserRed05.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enemy 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy 2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player Laser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player Laser.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game Core.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game Core.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DamageDealer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DamageDealer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Space-Background-Tiled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Space-Background-Tiled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +42,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/ff/db3e712f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6b1444477c1d41c692ef6c02a838308529ac30/49/d4acc6bd/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/3e/4e5a7924/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21UuoQTChaMgFevW4PGtA6OG9kF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -85,7 +103,8 @@
       <workItem from="1638094701820" duration="5132000" />
       <workItem from="1638100764080" duration="1062000" />
       <workItem from="1638111056740" duration="974000" />
-      <workItem from="1638120361449" duration="2204000" />
+      <workItem from="1638120361449" duration="2517000" />
+      <workItem from="1638197302982" duration="7150000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented multiple wave spawning, created a new path, wave config is now set via method, not serialized field">
       <created>1638100032253</created>
@@ -108,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638101205178</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created damage control: enemies now have health points, laser has damage points, hits trigger collision, when hp runs out enemies disappear">
+      <created>1638122859576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638122859576</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +167,7 @@
     <MESSAGE value="Implemented multiple wave spawning, created a new path, wave config is now set via method, not serialized field" />
     <MESSAGE value="Separate commit for EnemySpawner.. No idea why it didn't go with the previous" />
     <MESSAGE value="Implemented looping for all the waves, wave 2 speed is now faster so it doesn't overlap with wave 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented looping for all the waves, wave 2 speed is now faster so it doesn't overlap with wave 3" />
+    <MESSAGE value="Created damage control: enemies now have health points, laser has damage points, hits trigger collision, when hp runs out enemies disappear" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created damage control: enemies now have health points, laser has damage points, hits trigger collision, when hp runs out enemies disappear" />
   </component>
 </project>

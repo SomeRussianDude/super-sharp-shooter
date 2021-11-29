@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -6008039340865642334}
   - component: {fileID: -1997148695229006441}
   - component: {fileID: 7997635650283803440}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea0e880ea3a135c48b1e5e2c6cd23207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyLaser: {fileID: 4043799011945958415, guid: 0255a1a7146c99b4f8472c22878d18d8, type: 3}
   health: 400
+  minTimeBetweenShots: 1
+  maxTimeBetweenShots: 3
+  laserSpeed: 10
 --- !u!60 &7997635650283803440
 PolygonCollider2D:
   m_ObjectHideFlags: 0

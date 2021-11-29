@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,11 +6,15 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     // Config params
+
+    [Header("Player")]
     [SerializeField] private float moveSpeed = 10f;
+    [SerializeField] private float padding = 0.5f;
+    [SerializeField] private int health = 200;
+    [Header("Shooting")]
+    [SerializeField] private GameObject playerLaser;
     [SerializeField] private float laserSpeed = 10f;
     [SerializeField] private float laserFrequency = 0.5f;
-    [SerializeField] private float padding = 0.5f;
-    [SerializeField] private GameObject playerLaser;
 
     // Cached references
     private Coroutine firingCoroutine;
@@ -21,7 +26,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MovingBoundaries();
+        MovementBoundaries();
     }
 
     // Update is called once per frame
@@ -64,7 +69,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void MovingBoundaries()
+    private void MovementBoundaries()
     {
         Camera gameCamera = Camera.main;
         xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + padding;
@@ -72,5 +77,25 @@ public class Player : MonoBehaviour
 
         yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + padding;
         yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 0.75f, 0)).y;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        var damageDealer = other.gameObject.GetComponent<DamageDealer>();
+        if (!damageDealer)
+        {
+            return;
+        }
+        HitProcessing(damageDealer);
+    }
+
+    private void HitProcessing(DamageDealer damageDealer)
+    {
+        health -= damageDealer.Damage;
+        damageDealer.Hit();
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

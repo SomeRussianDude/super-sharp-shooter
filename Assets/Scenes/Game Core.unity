@@ -5224,7 +5224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1405959042
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -10023,7 +10023,7 @@ GameObject:
   - component: {fileID: 1788301232}
   - component: {fileID: 1788301231}
   m_Layer: 0
-  m_Name: ' Starfield Close'
+  m_Name: Starfield Close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

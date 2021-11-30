@@ -1,13 +1,19 @@
+using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
     // Config params
     [SerializeField] private GameObject enemyLaser;
+    [SerializeField] private GameObject explosionVFX;
+    [SerializeField] private AudioClip shootingSFX;
+    [SerializeField] private AudioClip deathSFX;
     [SerializeField] private float health = 100;
     [SerializeField] private float minTimeBetweenShots = 0.5f;
     [SerializeField] private float maxTimeBetweenShots = 1.5f;
     [SerializeField] private float laserSpeed = 10f;
+    [SerializeField] [Range (0,1)] private float sFXVolume = 1f;
 
     private float shotCounter;
     
@@ -29,6 +35,7 @@ public class Enemy : MonoBehaviour
         if (shotCounter <= 0f)
         {
             Fire();
+            AudioSource.PlayClipAtPoint(shootingSFX,Camera.main.transform.position, sFXVolume);
             shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
         }
     }
@@ -54,7 +61,15 @@ public class Enemy : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        GameObject explosion = Instantiate(explosionVFX, transform.position, quaternion.identity);
+        AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, sFXVolume);
+        Destroy(explosion,1f);
+        Destroy(gameObject);
     }
 }

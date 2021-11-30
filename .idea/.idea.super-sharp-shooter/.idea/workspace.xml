@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0310211-c0bd-48b5-8686-5b45b7ad671b" name="Changes" comment="" />
+    <list default="true" id="f0310211-c0bd-48b5-8686-5b45b7ad671b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Death Effect.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Death Effect.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Laser1 shortened.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Laser1 shortened.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Laser9 shortened.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Laser9 shortened.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/mixkit-explosion-and-glass-debris-1701.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/mixkit-explosion-and-glass-debris-1701.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/tone1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/tone1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy Laser (2).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy Laser (2).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/laserBlue16.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/laserBlue16.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/laserBlue16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/laserBlue16.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enemy 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game Core.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game Core.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/3e/4e5a7924/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/e1/092a4787/Object.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21UuoQTChaMgFevW4PGtA6OG9kF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,6 +109,7 @@
       <workItem from="1638111056740" duration="974000" />
       <workItem from="1638120361449" duration="2517000" />
       <workItem from="1638197302982" duration="8339000" />
+      <workItem from="1638277911582" duration="4227000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented multiple wave spawning, created a new path, wave config is now set via method, not serialized field">
       <created>1638100032253</created>

@@ -109,11 +109,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea0e880ea3a135c48b1e5e2c6cd23207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyLaser: {fileID: 4043799011945958415, guid: 0255a1a7146c99b4f8472c22878d18d8, type: 3}
+  enemyLaser: {fileID: 3750204693545027976, guid: 324ba3f7c1c659e499627b7355393eb8, type: 3}
+  explosionVFX: {fileID: 3135559211669120909, guid: 52e6b78cfe5cdbf459335bab15061f79, type: 3}
+  shootingSFX: {fileID: 8300000, guid: 62c14fed3b2bad0478685584911c103a, type: 3}
+  deathSFX: {fileID: 8300000, guid: 636178aaf2a18f64e8ee83fb88df7feb, type: 3}
   health: 400
   minTimeBetweenShots: 1
   maxTimeBetweenShots: 3
   laserSpeed: 10
+  sFXVolume: 0.3
 --- !u!60 &7997635650283803440
 PolygonCollider2D:
   m_ObjectHideFlags: 0

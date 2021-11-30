@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject playerLaser;
     [SerializeField] private float laserSpeed = 10f;
     [SerializeField] private float laserFrequency = 0.5f;
+    [SerializeField] private AudioClip deathSFX;
+    [SerializeField] [Range(0,1)] private float sFXVolume = 1f;
 
     // Cached references
     private Coroutine firingCoroutine;
@@ -95,6 +97,7 @@ public class Player : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
+            AudioSource.PlayClipAtPoint(deathSFX,Camera.current.transform.position, sFXVolume);
             Destroy(gameObject);
         }
     }

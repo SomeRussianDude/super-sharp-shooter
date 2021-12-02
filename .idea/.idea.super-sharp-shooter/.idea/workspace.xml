@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0310211-c0bd-48b5-8686-5b45b7ad671b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Death Effect.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Death Effect.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Laser1 shortened.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Laser1 shortened.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Laser9 shortened.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Laser9 shortened.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/mixkit-explosion-and-glass-debris-1701.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/mixkit-explosion-and-glass-debris-1701.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/tone1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/tone1.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy Laser (2).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy Laser (2).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/laserBlue16.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/laserBlue16.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/laserBlue16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/laserBlue16.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enemy 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game Core.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game Core.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-    </list>
+    <list default="true" id="f0310211-c0bd-48b5-8686-5b45b7ad671b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +84,7 @@
       <workItem from="1638111056740" duration="974000" />
       <workItem from="1638120361449" duration="2517000" />
       <workItem from="1638197302982" duration="8339000" />
-      <workItem from="1638277911582" duration="4227000" />
+      <workItem from="1638277911582" duration="4312000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented multiple wave spawning, created a new path, wave config is now set via method, not serialized field">
       <created>1638100032253</created>
@@ -139,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638122859576</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Explosion VFX implemented for enemies, SFX for shots fired by enemies and explosions added">
+      <created>1638284128729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638284128729</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +155,7 @@
     <MESSAGE value="Separate commit for EnemySpawner.. No idea why it didn't go with the previous" />
     <MESSAGE value="Implemented looping for all the waves, wave 2 speed is now faster so it doesn't overlap with wave 3" />
     <MESSAGE value="Created damage control: enemies now have health points, laser has damage points, hits trigger collision, when hp runs out enemies disappear" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created damage control: enemies now have health points, laser has damage points, hits trigger collision, when hp runs out enemies disappear" />
+    <MESSAGE value="Explosion VFX implemented for enemies, SFX for shots fired by enemies and explosions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explosion VFX implemented for enemies, SFX for shots fired by enemies and explosions added" />
   </component>
 </project>

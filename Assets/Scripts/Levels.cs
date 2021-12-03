@@ -1,9 +1,13 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Levels : MonoBehaviour
 {
-   public void LoadStartScene()
+    [SerializeField] private float delayInSeconds = 3f;
+
+    public void LoadStartScene()
     {
         SceneManager.LoadScene(0);
     }
@@ -15,6 +19,12 @@ public class Levels : MonoBehaviour
 
     public void LoadGameOver()
     {
+        StartCoroutine(WaitAndLoad());
+    }
+
+    private IEnumerator WaitAndLoad()
+    {
+        yield return new WaitForSeconds(delayInSeconds);
         SceneManager.LoadScene("Game Over");
     }
 

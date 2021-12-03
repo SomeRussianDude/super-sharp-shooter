@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Player : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject playerLaser;
     [SerializeField] private float laserSpeed = 10f;
     [SerializeField] private float laserFrequency = 0.5f;
-    [SerializeField] private AudioClip deathSFX;
+    [FormerlySerializedAs("deathSFX")] [SerializeField] private AudioClip deathSfx;
     [SerializeField] [Range(0,1)] private float sFXVolume = 1f;
 
     // Cached references
@@ -97,8 +98,14 @@ public class Player : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
-            AudioSource.PlayClipAtPoint(deathSFX,Camera.current.transform.position, sFXVolume);
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        FindObjectOfType<Levels>().LoadGameOver();
+        AudioSource.PlayClipAtPoint(deathSfx,Camera.current.transform.position, sFXVolume);
+        Destroy(gameObject);
     }
 }

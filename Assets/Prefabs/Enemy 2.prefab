@@ -113,12 +113,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyLaser: {fileID: 3750204693545027976, guid: 324ba3f7c1c659e499627b7355393eb8, type: 3}
   explosionVFX: {fileID: 3135559211669120909, guid: 52e6b78cfe5cdbf459335bab15061f79, type: 3}
-  shootingSFX: {fileID: 8300000, guid: 62c14fed3b2bad0478685584911c103a, type: 3}
-  deathSFX: {fileID: 8300000, guid: 636178aaf2a18f64e8ee83fb88df7feb, type: 3}
   health: 400
   minTimeBetweenShots: 1
   maxTimeBetweenShots: 3
   laserSpeed: 10
+  pointsForHit: 10
+  pointsForKill: 30
+  shootingSFX: {fileID: 8300000, guid: 62c14fed3b2bad0478685584911c103a, type: 3}
+  deathSFX: {fileID: 8300000, guid: 636178aaf2a18f64e8ee83fb88df7feb, type: 3}
   sFXVolume: 0.3
 --- !u!60 &7997635650283803440
 PolygonCollider2D:

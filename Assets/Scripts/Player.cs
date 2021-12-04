@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -25,6 +26,9 @@ public class Player : MonoBehaviour
     private float xMax;
     private float yMin;
     private float yMax;
+    
+    // Props
+    public int Health => health;
 
     // Start is called before the first frame update
     void Start()

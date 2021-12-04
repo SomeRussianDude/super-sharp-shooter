@@ -121,7 +121,7 @@ MonoBehaviour:
   pointsForKill: 30
   shootingSFX: {fileID: 8300000, guid: 9cec34ccb5efc4740988e2abe8a7b75b, type: 3}
   deathSFX: {fileID: 8300000, guid: 636178aaf2a18f64e8ee83fb88df7feb, type: 3}
-  sFXVolume: 0.3
+  sFXVolume: 0.2
 --- !u!60 &5205705022800970962
 PolygonCollider2D:
   m_ObjectHideFlags: 0

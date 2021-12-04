@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -1299673744712728106}
   - component: {fileID: -878392443300687989}
   m_Layer: 7
-  m_Name: Enemy 2
+  m_Name: Enemy 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ddebb33fca032da43b4cb4cb87110157, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 919d37da61b3e514ea7f63f056202f1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -111,15 +111,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea0e880ea3a135c48b1e5e2c6cd23207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyLaser: {fileID: 3750204693545027976, guid: 324ba3f7c1c659e499627b7355393eb8, type: 3}
+  enemyLaser: {fileID: 3750204693545027976, guid: 14873da853afe35499800a8560e59923, type: 3}
   explosionVFX: {fileID: 3135559211669120909, guid: 52e6b78cfe5cdbf459335bab15061f79, type: 3}
   health: 400
-  minTimeBetweenShots: 1
+  minTimeBetweenShots: 2
   maxTimeBetweenShots: 3
-  laserSpeed: 10
+  laserSpeed: 3
   pointsForHit: 10
-  pointsForKill: 30
-  shootingSFX: {fileID: 8300000, guid: 62c14fed3b2bad0478685584911c103a, type: 3}
+  pointsForKill: 40
+  shootingSFX: {fileID: 8300000, guid: dec3f7b6b3085294e8b845b8e15b35bc, type: 3}
   deathSFX: {fileID: 8300000, guid: 636178aaf2a18f64e8ee83fb88df7feb, type: 3}
   sFXVolume: 0.2
 --- !u!60 &7997635650283803440
@@ -139,7 +139,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.82, y: 0.84}
+    oldSize: {x: 1.94, y: 1.68}
     newSize: {x: 0.82, y: 0.84}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

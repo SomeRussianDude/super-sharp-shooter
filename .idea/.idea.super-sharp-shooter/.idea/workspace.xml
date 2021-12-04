@@ -2,33 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0310211-c0bd-48b5-8686-5b45b7ad671b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/DJ Zinc - Super Sharp Shooter (Original Mix).ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/DJ Zinc - Super Sharp Shooter (Original Mix).ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Mars.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Mars.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Session.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Session.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Music Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Music Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameSession.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameSession.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HealthDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HealthDisplay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/laser3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/laser3.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green Nebula 4 - 1024x1024.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green Nebula 4 - 1024x1024.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green Nebula 6 - 1024x1024.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green Nebula 6 - 1024x1024.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green Nebula BW.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green Nebula BW.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Space-Background-Tiled.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Space-Background-Tiled.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/laserBlue16.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/laserBlue16.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Paths/Path (3).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Paths/Path (3).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy 3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy 3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Bomb.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Bomb.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/enemyGreen5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/enemyGreen5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/laserRed10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/laserRed10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion 2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion 2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 5.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.super-sharp-shooter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy 2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SceneSelector.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SceneSelector.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game Over.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game Over.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Green Nebula 4 - 1024x1024.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Green Nebula 4 - 1024x1024.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Green Nebula 6 - 1024x1024.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Green Nebula 6 - 1024x1024.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Green Nebula BW.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Green Nebula BW.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Space-Background-Tiled.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Space-Background-Tiled.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/laserBlue16.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/laserBlue16.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +137,8 @@
       <workItem from="1638197302982" duration="8339000" />
       <workItem from="1638277911582" duration="4312000" />
       <workItem from="1638465252916" duration="2407000" />
-      <workItem from="1638552146802" duration="9911000" />
+      <workItem from="1638552146802" duration="10225000" />
+      <workItem from="1638640196218" duration="831000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented multiple wave spawning, created a new path, wave config is now set via method, not serialized field">
       <created>1638100032253</created>

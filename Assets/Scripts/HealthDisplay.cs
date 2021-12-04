@@ -25,7 +25,11 @@ public class HealthDisplay : MonoBehaviour
 
     private void TextColorChange()
     {
-        if (player.Health <= 200)
+        if (player.Health <= 500 && player.Health > 200)
+        {
+            healthDisplay.color = Color.yellow;
+        }
+        else if (player.Health <= 200)
         {
             healthDisplay.color = Color.red;
         }

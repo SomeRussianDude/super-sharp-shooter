@@ -17,7 +17,8 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject playerLaser;
     [SerializeField] private float laserSpeed = 10f;
     [SerializeField] private float laserFrequency = 0.5f;
-    [FormerlySerializedAs("deathSFX")] [SerializeField] private AudioClip deathSfx;
+    [SerializeField] private AudioClip deathSfx;
+    [SerializeField] private GameObject explosionVfx;
     [SerializeField] [Range(0,1)] private float sFXVolume = 1f;
 
     // Cached references
@@ -108,6 +109,7 @@ public class Player : MonoBehaviour
 
     private void Die()
     {
+        GameObject explosion = Instantiate(explosionVfx, transform.position, Quaternion.identity);
         FindObjectOfType<Levels>().LoadGameOver();
         AudioSource.PlayClipAtPoint(deathSfx,Camera.current.transform.position, sFXVolume);
         Destroy(gameObject);

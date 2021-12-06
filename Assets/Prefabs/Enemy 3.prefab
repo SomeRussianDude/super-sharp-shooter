@@ -112,11 +112,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyLaser: {fileID: 3750204693545027976, guid: 14873da853afe35499800a8560e59923, type: 3}
+  healthPack: {fileID: 7278526797505157975, guid: 486f440ee0003f24e8c5d30790b663a5, type: 3}
   explosionVFX: {fileID: 3135559211669120909, guid: 52e6b78cfe5cdbf459335bab15061f79, type: 3}
   health: 400
   minTimeBetweenShots: 2
   maxTimeBetweenShots: 3
   laserSpeed: 3
+  dropSpeed: 2
   pointsForHit: 10
   pointsForKill: 40
   shootingSFX: {fileID: 8300000, guid: dec3f7b6b3085294e8b845b8e15b35bc, type: 3}

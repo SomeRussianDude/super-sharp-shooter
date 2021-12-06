@@ -90,11 +90,22 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         var damageDealer = other.gameObject.GetComponent<DamageDealer>();
-        if (!damageDealer)
+        if (damageDealer != null)
         {
-            return;
+            HitProcessing(damageDealer);
         }
-        HitProcessing(damageDealer);
+        var healthDealer = other.gameObject.GetComponent<HealthDealer>();
+        if (healthDealer != null)
+        {
+            Heal(healthDealer);
+        }
+
+    }
+
+    private void Heal(HealthDealer healthDealer)
+    {
+        health += healthDealer.Health;
+        healthDealer.Hit();
     }
 
     private void HitProcessing(DamageDealer damageDealer)

@@ -188,6 +188,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18669ce45f52aac468f8ccbe25a40fcc, type: 3}
+--- !u!1 &657711134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7278526797505157975, guid: 486f440ee0003f24e8c5d30790b663a5, type: 3}
+  m_PrefabInstance: {fileID: 7278526798537232336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &684799307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -408,6 +413,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f79aa3d7a2859c047a316a4244cc8b85, type: 3}
+--- !u!114 &1248307758 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2622237413264246392, guid: 5b209cd25e5af5248b77fbb444648ab7, type: 3}
+  m_PrefabInstance: {fileID: 3641259613837876392}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f1c015be5016e4d81f9ab4a502b4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1512451414
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,6 +914,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1386417870946763600, guid: ad0e01da63768e443aca42f302716c18, type: 3}
+      propertyPath: enemyManager
+      value: 
+      objectReference: {fileID: 1248307758}
+    - target: {fileID: 1386417870946763600, guid: ad0e01da63768e443aca42f302716c18, type: 3}
       propertyPath: waveConfigs.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -1149,6 +1169,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2622237413264246392, guid: 5b209cd25e5af5248b77fbb444648ab7, type: 3}
+      propertyPath: healthPack
+      value: 
+      objectReference: {fileID: 657711134}
     - target: {fileID: 5423544910884950277, guid: 5b209cd25e5af5248b77fbb444648ab7, type: 3}
       propertyPath: m_Name
       value: Enemy Manager

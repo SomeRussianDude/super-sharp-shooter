@@ -7,14 +7,12 @@ public class Enemy : MonoBehaviour
 {
     // Config params
     [SerializeField] private GameObject enemyLaser;
-    [SerializeField] private GameObject healthPack;
     [SerializeField] private GameObject explosionVFX;
 
     [SerializeField] private float health = 100;
     [SerializeField] private float minTimeBetweenShots = 0.5f;
     [SerializeField] private float maxTimeBetweenShots = 1.5f;
     [SerializeField] private float laserSpeed = 10f;
-    [SerializeField] private float dropSpeed = 2f;
 
     [SerializeField] private int pointsForHit = 10;
     [SerializeField] private int pointsForKill = 50;
@@ -99,9 +97,4 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void HealthDrop()
-    {
-        GameObject healthPack = Instantiate(this.healthPack, transform.position, quaternion.identity);
-        healthPack.GetComponent<Rigidbody2D>().velocity = new Vector2(0, dropSpeed);
-    }
 }

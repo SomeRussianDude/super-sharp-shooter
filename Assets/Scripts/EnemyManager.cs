@@ -5,8 +5,12 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
+    [SerializeField] private GameObject healthPack;
+    [SerializeField] private float dropSpeed = 2f;
+
     private List<List<Enemy>> currentEnemyCount = new List<List<Enemy>>();
     
+
 
     public void Register(int waveIndex, Enemy enemy)
     {
@@ -18,8 +22,13 @@ public class EnemyManager : MonoBehaviour
         currentEnemyCount[waveIndex].Remove(enemy);
         if (currentEnemyCount[waveIndex].Count == 0)
         {
-            enemy.HealthDrop();
+            HealthDrop(enemy);
         }
     }
-    
+    public void HealthDrop(Enemy enemy)
+    {
+        GameObject healthPack = Instantiate(this.healthPack, enemy.transform.position, enemy.transform.rotation);
+        healthPack.GetComponent<Rigidbody2D>().velocity = new Vector2(0, dropSpeed);
+    }
+
 }
